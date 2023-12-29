@@ -15,7 +15,6 @@ const Part =(props) => {
 }
 
 const Content = (props) => {
-  console.log(props)
   return(
     <div>
       <Part name={props.course.parts[0].name} exercises={props.course.parts[0].exercises}/>
@@ -32,7 +31,6 @@ const Total = (props) => {
     </div>
   )
 }
-
 
 const App = () => {
   const course = {
@@ -61,6 +59,4 @@ const App = () => {
     </div>
   )
 }
-
 export default App
-
